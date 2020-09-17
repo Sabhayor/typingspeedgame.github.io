@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="instruction">
+      <h1>Instruction:</h1>
+      <p>
+        Thank you for checking out this game. Please note that the game has a
+        time bound of 60 seconds and is case sensitive. You are expected to type as much words as
+        you can within this time frame. To begin, simply click the "start
+        button" and then the "type here button" to type.
+      </p>
+      <p>
+        The overall objective of this game is to help you increase your typing
+        speed. Have fun!!
+      </p>
+    </div>
+    <div id="container">
+      <div id="score">
+        Score:
+        <span id="myScore">0</span>
+      </div>
+      <div id="correct">Correct!</div>
+      <div id="wrong">Wrong!</div>
+      <div id="timer">
+        Timer:
+        <span id="timerValue">0</span>
+      </div>
+      <div id="screen"></div>
+      <div id="gameOverBanner"></div>
+      <input id="myInput" type="text" placeholder="type here" />
+      <button id="startButton">Start</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

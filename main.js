@@ -73,7 +73,7 @@ function startTimer() {
     --countDownTimer;
     show("timer");
     document.getElementById("timerValue").innerText = countDownTimer;
-    if (countDownTimer == 50) {
+    if (countDownTimer == 0) {
       clearTimer();
       show("gameOverBanner");
       document.getElementById("gameOverBanner").innerHTML =
